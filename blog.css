@@ -1,0 +1,27 @@
+header{
+    padding: 5rem 10%;
+    background-color: #F6F6F6;
+    
+  }
+  
+  #header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  #header #navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--light-black);
+  }
+  #header #navbar a:hover{
+    color: var(--peru);
+  }
